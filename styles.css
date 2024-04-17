@@ -1,6 +1,8 @@
 h1 {
   font-family:
-    -apple-system,
+    "Times New Roman",
+    Times,
+    serif,
     BlinkMacSystemFont,
     avenir next,
     avenir,
@@ -14,17 +16,39 @@ h1 {
     arial,
     sans-serif;
   margin: 24px 0;
+  color: #7c664a;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  background-color: #fff9f2;
+  border-radius: 20px;
+  border: 2px solid #7c664a;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .bold-paragraph {
-  color: #ff87a6;
-}
-
-#bold {
-  background-color: #ff87a6;
-  color: white;
+  color: #7c664a;
 }
 
 img {
-  width: 100%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: 5px solid #7c664a;
+}
+
+body {
+  background-color: antiquewhite;
 }
